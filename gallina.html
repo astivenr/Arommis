@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arommis | Gallina</title>
+
+    <meta name="description" content="Descubre datos curiosos sobre la gallina: su comportamiento, sus huevos y su importancia para las personas.">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #f7f9f7; }
+        .color-miel { background-color: #FACC15; }
+        .color-naturaleza { background-color: #10B981; }
+        .texto-naturaleza { color: #059669; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header reutilizado -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-extrabold texto-naturaleza tracking-wider">
+                Arommis
+            </a>
+            <nav class="hidden md:block" aria-label="Navegación principal">
+                <a href="index.html#inicio" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Inicio</a>
+                <a href="index.html#curiosidades" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Curiosidades</a>
+                <a href="poemas.html" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Poemas</a>
+                <a href="https://youtube.com/@AprendiendoConArommis" target="_blank" rel="noopener noreferrer"
+                   class="color-miel text-gray-900 font-semibold px-4 py-2 rounded-full ml-4 shadow-lg hover:shadow-xl hover:scale-105 transition duration-300 inline-flex items-center gap-2">
+                    <span class="font-black text-lg align-middle">▶️</span>
+                    <span>YouTube</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero específico del animal -->
+        <section class="py-12 md:py-16 bg-orange-100 border-b border-orange-200">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-8">
+                <div class="flex-1">
+                    <p class="uppercase text-sm tracking-wide mb-2 texto-naturaleza">
+                        Ficha de animal
+                    </p>
+                    <h1 class="text-4xl md:text-5xl font-extrabold mb-4 flex items-center gap-3 text-gray-900">
+                        Gallina
+                        <span class="text-5xl">🐔</span>
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-800">
+                        Una de las aves más cercanas a las personas. Nos acompaña en el campo,
+                        en los corrales y en muchas historias de la vida diaria.
+                    </p>
+                </div>
+                <div class="flex-1">
+                    <div class="bg-white border border-orange-100 rounded-2xl p-6 shadow-xl">
+                        <h2 class="text-xl font-semibold mb-3 texto-naturaleza">¿Sabías que...?</h2>
+                        <ul class="space-y-2 text-sm md:text-base text-gray-700">
+                            <li>• Las gallinas pueden reconocer a más de 50 individuos (otras gallinas y personas).</li>
+                            <li>• Se comunican con más de 20 vocalizaciones distintas para advertir, llamar o cuidar.</li>
+                            <li>• El color de la cáscara del huevo depende de la raza, no de su calidad nutricional.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de contenido: datos + poesía -->
+        <section class="py-12 md:py-16">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-10 items-start">
+                
+                <!-- Columna de datos científicos -->
+                <article class="bg-white rounded-2xl shadow-lg p-6 md:p-8 border border-gray-100">
+                    <h2 class="text-2xl font-bold mb-4 texto-naturaleza">
+                        La vida cotidiana de la gallina
+                    </h2>
+                    <p class="text-gray-700 mb-4">
+                        La gallina doméstica (<em>Gallus gallus domesticus</em>) es una de las especies
+                        más extendidas del planeta gracias a su relación con las personas. Vive en corrales,
+                        granjas y patios, y aporta huevos, carne y compañía.
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        En estado natural, las gallinas forman pequeños grupos con jerarquías claras. 
+                        Se acicalan, buscan alimento en el suelo y duermen en lugares elevados para sentirse seguras.
+                    </p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Son aves omnívoras: comen granos, insectos, hierbas y pequeños invertebrados.</li>
+                        <li>Las gallinas cluecas cuidan y defienden con fuerza a sus pollitos.</li>
+                        <li>Su comportamiento nos ayuda a comprender mejor la vida de las aves de corral.</li>
+                    </ul>
+                </article>
+
+                <!-- Columna de poema -->
+                <article class="bg-white rounded-2xl shadow-lg p-6 md:p-8 border border-gray-100">
+                    <h2 class="text-2xl font-bold mb-4 texto-naturaleza">
+                        Poema: Gallina
+                    </h2>
+                    <p class="text-sm text-gray-500 mb-4">
+                        Poema inspirado en la ternura y rutina de las aves de corral.
+                    </p>
+                    <div class="bg-orange-50 border border-orange-100 rounded-xl p-4 md:p-5 text-gray-800 text-sm md:text-base leading-relaxed whitespace-pre-line">
+Gallina de paso tranquilo
+que escarba la tierra al andar,
+
+con pico curioso y preciso
+semillas e insectos va a hallar.
+
+Sus plumas abrigan el nido
+que cuida con gran devoción,
+
+bajo sus alas se esconde
+un pequeño y tibio corazón.
+
+Cuando amanece en el patio
+su canto se oye temprano:
+
+anuncia que empieza la vida
+entre maíz, sol y grano.
+
+Gallina sencilla y cercana
+compañera de tantos lugares,
+
+en tus ojos se ve la historia
+de campos, familias y hogares.
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Sección de videos relacionados -->
+        <section class="pb-16">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="bg-white rounded-2xl shadow-lg p-6 md:p-8 border border-gray-100">
+                    <h2 class="text-2xl font-bold mb-4 texto-naturaleza">
+                        Videos sobre gallinas 🐔
+                    </h2>
+                    <p class="text-gray-700 mb-4">
+                        Descubre más curiosidades de la gallina en nuestros videos cortos.
+                    </p>
+                    <ul class="space-y-2 text-sm md:text-base">
+                        <li>
+                            <a href="https://www.youtube.com/@AprendiendoConArommis/shorts" target="_blank" rel="noopener noreferrer"
+                               class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                                Ver shorts de la gallina y otras aves
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1">
+                                    <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://youtube.com/@AprendiendoConArommis" target="_blank" rel="noopener noreferrer"
+                               class="text-gray-700 hover:text-gray-900 inline-flex items-center">
+                                Ir al canal completo de Aprendiendo con Arommis
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1">
+                                    <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-auto">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-sm text-gray-300 mb-2">
+                🐔 Volver a la <a href="index.html" class="underline hover:text-white">página principal</a>
+            </p>
+            <p class="text-xs text-gray-500">
+                © 2024 Arommis. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
