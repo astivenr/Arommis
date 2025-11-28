@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arommis | Abeja</title>
+
+    <meta name="description" content="Descubre datos curiosos sobre las abejas: polinización, importancia ecológica y un poema dedicado a ellas.">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #f7f9f7; }
+        .color-miel { background-color: #FACC15; }
+        .color-naturaleza { background-color: #10B981; }
+        .texto-naturaleza { color: #059669; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header reutilizado -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-extrabold texto-naturaleza tracking-wider">
+                Arommis
+            </a>
+            <nav class="hidden md:block" aria-label="Navegación principal">
+                <a href="index.html#inicio" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Inicio</a>
+                <a href="index.html#curiosidades" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Curiosidades</a>
+                <a href="poemas.html" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Poemas</a>
+                <a href="https://youtube.com/@aprendiendoconarommis" target="_blank" rel="noopener noreferrer"
+                   class="color-miel text-gray-900 font-semibold px-4 py-2 rounded-full ml-4 shadow-lg hover:shadow-xl hover:scale-105 transition duration-300 inline-flex items-center gap-2">
+                    <span class="font-black text-lg align-middle">▶️</span>
+                    <span>YouTube</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero específico del animal -->
+        <section class="py-12 md:py-16 color-naturaleza text-white">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-8">
+                <div class="flex-1">
+                    <p class="uppercase text-sm tracking-wide mb-2 opacity-80">
+                        Ficha de animal
+                    </p>
+                    <h1 class="text-4xl md:text-5xl font-extrabold mb-4 flex items-center gap-3">
+                        Abeja
+                        <span class="text-5xl">🐝</span>
+                    </h1>
+                    <p class="text-lg md:text-xl opacity-90">
+                        Pequeña, trabajadora y vital para la vida en la Tierra.
+                        Sin las abejas, nuestra alimentación y biodiversidad cambiarían radicalmente.
+                    </p>
+                </div>
+                <div class="flex-1">
+                    <div class="bg-white/10 border border-white/30 rounded-2xl p-6 shadow-xl">
+                        <h2 class="text-xl font-semibold mb-3">¿Sabías que...?</h2>
+                        <ul class="space-y-2 text-sm md:text-base">
+                            <li>• Alrededor del 70% de los cultivos depende, en parte, de la polinización.</li>
+                            <li>• Las abejas se comunican mediante una “danza” para indicar dónde está el alimento.</li>
+                            <li>• Una sola abeja puede visitar cientos de flores en un solo viaje.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de contenido: datos + poesía -->
+        <section class="py-12 md:py-16">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-10 items-start">
+                
+                <!-- Columna de datos científicos -->
+                <article class="bg-white rounded-2xl shadow-lg p-6 md:p-8 border border-gray-100">
+                    <h2 class="text-2xl font-bold mb-4 texto-naturaleza">
+                        ¿Por qué son tan importantes las abejas?
+                    </h2>
+                    <p class="text-gray-700 mb-4">
+                        Las abejas son polinizadores clave: al visitar flores para alimentarse de néctar,
+                        transportan polen de una flor a otra. Este proceso permite que muchas plantas
+                        produzcan frutos y semillas.
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        Sin su labor silenciosa, muchos ecosistemas se desequilibrarían y nuestra dieta
+                        sería mucho más limitada. Además de la miel, nos regalan biodiversidad.
+                    </p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Favorecen la reproducción de plantas con flores (angiospermas).</li>
+                        <li>Contribuyen a la seguridad alimentaria del planeta.</li>
+                        <li>Son un indicador de la salud ambiental de una región.</li>
+                    </ul>
+                </article>
+
+                <!-- Columna de poema -->
+                <article class="bg-white rounded-2xl shadow-lg p-6 md:p-8 border border-gray-100">
+                    <h2 class="text-2xl font-bold mb-4 texto-naturaleza">
+                        Poema: Abeja
+                    </h2>
+                    <p class="text-sm text-gray-500 mb-4">
+                        Fragmento de la colección <em>“Instinto”</em>.
+                    </p>
+                    <div class="bg-yellow-50 border border-yellow-100 rounded-xl p-4 md:p-5 text-gray-800 text-sm md:text-base leading-relaxed whitespace-pre-line">
+Abeja Soles
+salió a buscar
+
+un jardín de flores 
+para néctares libar.
+
+Absorberá mil delicias
+probóscide a trabajar
+
+y al igual que sus patitas
+muchas vidas llevará.
+
+Con sus alegres vuelos
+y singular zumbido
+
+visita nectarios
+por precioso líquido.
+
+La vida y diversidad 
+son la consecuencia 
+
+del esmero, laboriosidad
+y total constancia.
+
+Poliniza, polvo fino 
+para más vida el destino
+alimento gran portento
+oro líquido y divino.
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Sección de videos relacionados -->
+        <section class="pb-16">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="bg-white rounded-2xl shadow-lg p-6 md:p-8 border border-gray-100">
+                    <h2 class="text-2xl font-bold mb-4 texto-naturaleza">
+                        Videos sobre abejas 🐝
+                    </h2>
+                    <p class="text-gray-700 mb-4">
+                        Sigue aprendiendo sobre las abejas con nuestros videos en YouTube.
+                    </p>
+                    <ul class="space-y-2 text-sm md:text-base">
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=MEsd1g8QrKU" target="_blank" rel="noopener noreferrer"
+                               class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                                Short: Las maestras polinizadoras
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://youtube.com/@aprendiendoconarommis" target="_blank" rel="noopener noreferrer"
+                               class="text-gray-700 hover:text-gray-900 inline-flex items-center">
+                                Ver más videos en el canal
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer simple -->
+    <footer class="bg-gray-800 text-white py-8 mt-auto">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-sm text-gray-300 mb-2">
+                🐝 Volver a la <a href="index.html" class="underline hover:text-white">página principal</a>
+            </p>
+            <p class="text-xs text-gray-500">
+                © 2024 Arommis. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
