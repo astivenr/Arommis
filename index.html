@@ -3,42 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arommis | Datos curiosos de la naturaleza para toda la familia</title>
-
-    <!-- SEO básico -->
-    <meta name="description" content="Arommis convierte los datos curiosos de la naturaleza en historias fáciles de entender. Ciencia, biología y ecología en videos cortos para toda la familia.">
-    <meta name="keywords" content="Arommis, datos curiosos, naturaleza, ciencia, biología, ecología, shorts, YouTube, animales, educación para niños">
-    <meta name="author" content="Arommis">
-
-    <!-- Open Graph (para compartir en redes) -->
-    <meta property="og:title" content="Arommis | Datos curiosos de la naturaleza">
-    <meta property="og:description" content="Óyelo bien y no lo olvides: la naturaleza es fascinante. Descubre datos curiosos con Arommis.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://astivenr.github.io/Arommis">
-    <meta property="og:image" content="https://astivenr.github.io/Arommis/imagen-og-arommis.jpg">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Arommis | Datos curiosos de la naturaleza">
-    <meta name="twitter:description" content="Ciencia, naturaleza y datos curiosos explicados de forma simple.">
-    <meta name="twitter:image" content="https://astivenr.github.io/Arommis/imagen-og-arommis.jpg">
-
-    <!-- Favicon (ajusta la ruta si tienes uno) -->
-    <link rel="icon" type="image/png" href="/favicon.png">
-
+    <title>Arommis | Datos Curiosos de la Naturaleza</title>
     <!-- Carga de Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-
     <!-- Configuración de Fuente Inter -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f7f9f7;
+            background-color: #f7f9f7; /* Un color blanco roto suave */
         }
-        .color-miel { background-color: #FACC15; }
-        .color-naturaleza { background-color: #10B981; }
-        .texto-naturaleza { color: #059669; }
+        /* Color principal inspirado en la miel y la naturaleza */
+        .color-miel { background-color: #FACC15; } /* Amarillo 500 */
+        .color-naturaleza { background-color: #10B981; } /* Esmeralda 500 */
+        .texto-naturaleza { color: #059669; } /* Esmeralda 600 */
     </style>
 </head>
 <body class="antialiased">
@@ -49,20 +27,21 @@
             <h1 class="text-3xl font-extrabold texto-naturaleza tracking-wider">
                 Arommis
             </h1>
-            <nav class="hidden md:block" aria-label="Navegación principal">
+            <nav class="hidden md:block">
                 <a href="#inicio" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Inicio</a>
                 <a href="#curiosidades" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Curiosidades</a>
                 <a href="#acerca" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Acerca</a>
                 <a href="poemas.html" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Poemas</a>
-                <a href="https://youtube.com/@aprendiendoconarommis" target="_blank" rel="noopener noreferrer"
-                   class="color-miel text-gray-900 font-semibold px-4 py-2 rounded-full ml-4 shadow-lg hover:shadow-xl hover:scale-105 transition duration-300 inline-flex items-center gap-2">
-                    <span class="font-black text-lg align-middle">▶️</span>
-                    <span>YouTube</span>
+                <a href="https://youtube.com/@AprendiendoConArommis" target="_blank" class="color-miel text-gray-900 font-semibold px-4 py-2 rounded-full ml-4 shadow-lg hover:shadow-xl transition duration-300">
+                    <span class="font-black text-lg align-middle">▶️</span> YouTube
                 </a>
             </nav>
-            <button class="md:hidden p-2 rounded-full hover:bg-gray-100 transition duration-150" aria-label="Abrir menú de navegación">
+            <button class="md:hidden p-2 rounded-full hover:bg-gray-100 transition duration-150" aria-label="Abrir menú">
+                <!-- Icono de Menú Hamburguesa (usando SVG de Lucide) -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-600">
-                    <line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="18" y2="18"/>
+                    <line x1="3" x2="21" y1="12" y2="12"/>
+                    <line x1="3" x2="21" y1="6" y2="6"/>
+                    <line x1="3" x2="21" y1="18" y2="18"/>
                 </svg>
             </button>
         </div>
@@ -76,16 +55,14 @@
                     📢 ÓYELO BIEN Y NO LO OLVIDES...
                 </p>
                 <h2 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
-                    El mundo es un lugar increíble
+                    El Mundo es un Lugar Increíble
                 </h2>
                 <p class="text-lg md:text-xl max-w-3xl mx-auto mb-10 opacity-90">
                     Explora con Arommis los datos curiosos, fascinantes e impactantes que la naturaleza esconde.
                     De la biología a la ecología, ¡aprender nunca fue tan divertido!
                 </p>
-                <a href="https://youtube.com/@aprendiendoconarommis" target="_blank" rel="noopener noreferrer"
-                   class="inline-flex items-center justify-center gap-2 color-miel text-gray-900 font-bold text-xl px-10 py-4 rounded-full shadow-2xl transform hover:scale-105 transition duration-300">
-                    <span>¡Ver nuestro último video ahora!</span>
-                    <span class="text-2xl">▶️</span>
+                <a href="https://youtube.com/@AprendiendoConArommis" target="_blank" class="inline-block color-miel text-gray-900 font-bold text-xl px-10 py-4 rounded-full shadow-2xl transform hover:scale-105 transition duration-300">
+                    ¡Ver Nuestro Último Video Ahora!
                 </a>
             </div>
         </section>
@@ -93,87 +70,89 @@
         <!-- Sección de Curiosidades Destacadas -->
         <section id="curiosidades" class="py-16 md:py-20">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <p class="text-sm uppercase tracking-wide font-semibold text-center texto-naturaleza mb-2">
-                    Shorts destacados
-                </p>
                 <h3 class="text-4xl font-bold text-center mb-12 texto-naturaleza">
-                    Nuestras curiosidades más fascinantes
+                    Nuestras Curiosidades Más Fascinantes
                 </h3>
                 
-                <div class="grid md:grid-cols-3 gap-8">
+                <div class="grid md:grid-cols-4 gap-8">
                     
-                    <!-- Abeja -->
-                    <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-gray-100 h-full flex flex-col">
-                        <div class="p-6 flex flex-col flex-1">
+                    <!-- Curiosidad 1: Las Abejas y la Polinización -->
+                    <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-gray-100">
+                        <div class="p-6">
                             <span class="text-5xl mb-4 block">🐝</span>
                             <h4 class="text-2xl font-semibold mb-3 text-gray-800">
-                                Las maestras polinizadoras
+                                Las Maestras Polinizadoras
                             </h4>
-                            <p class="text-gray-600 mb-4 flex-1">
+                            <p class="text-gray-600 mb-4">
                                 ¿Sabías que el 70% de las frutas y verduras que comes existen gracias a las abejas?
                                 Son criaturas diminutas con un impacto monumental en nuestra dieta.
                             </p>
-                            <div class="space-y-2">
-                                <a href="https://www.youtube.com/watch?v=MEsd1g8QrKU" target="_blank" rel="noopener noreferrer"
-                                   class="text-sm font-semibold text-blue-600 hover:text-blue-800 inline-flex items-center">
-                                    Ver short de abejas
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                                </a>
-                                <br>
-                                <a href="abeja.html" class="text-sm font-semibold texto-naturaleza hover:underline">
-                                    Leer más sobre la abeja 🐝
-                                </a>
-                            </div>
+                            <a href="https://www.youtube.com/watch?v=MEsd1g8QrKU" target="_blank" class="text-sm font-semibold text-blue-600 hover:text-blue-800 flex items-center">
+                                Ver Short de Abejas
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1">
+                                    <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+                                </svg>
+                            </a>
                         </div>
                     </article>
 
-                    <!-- Jirafa altura -->
-                    <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-gray-100 h-full flex flex-col">
-                        <div class="p-6 flex flex-col flex-1">
+                    <!-- Curiosidad 2: Altura de la Jirafa -->
+                    <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-gray-100">
+                        <div class="p-6">
                             <span class="text-5xl mb-4 block">🦒</span>
                             <h4 class="text-2xl font-semibold mb-3 text-gray-800">
-                                La altura récord
+                                La Altura Récord
                             </h4>
-                            <p class="text-gray-600 mb-4 flex-1">
+                            <p class="text-gray-600 mb-4">
                                 La jirafa es el ser vivo más alto. Al nacer, ¡ya miden hasta 2 metros!
-                                Las adultas pueden superar los 6 metros de altura.
+                                Las adultas superan los 6 metros de altura.
                             </p>
-                            <div class="space-y-2">
-                                <a href="https://www.youtube.com/watch?v=ueuXmcAfcao" target="_blank" rel="noopener noreferrer"
-                                   class="text-sm font-semibold text-blue-600 hover:text-blue-800 inline-flex items-center">
-                                    Ver short de altura
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                                </a>
-                                <br>
-                                <a href="jirafa.html" class="text-sm font-semibold texto-naturaleza hover:underline">
-                                    Leer más sobre la jirafa 🦒
-                                </a>
-                            </div>
+                            <a href="jirafa.html" class="text-sm font-semibold text-blue-600 hover:text-blue-800 flex items-center">
+                                Ver ficha de la jirafa
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1">
+                                    <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+                                </svg>
+                            </a>
                         </div>
                     </article>
 
-                    <!-- Jirafa lengua -->
-                    <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-gray-100 h-full flex flex-col">
-                        <div class="p-6 flex flex-col flex-1">
+                    <!-- Curiosidad 3: Lengua Oscura de la Jirafa -->
+                    <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-gray-100">
+                        <div class="p-6">
                             <span class="text-5xl mb-4 block">⚫</span>
                             <h4 class="text-2xl font-semibold mb-3 text-gray-800">
-                                El secreto de su lengua
+                                El Secreto de su Lengua
                             </h4>
-                            <p class="text-gray-600 mb-4 flex-1">
-                                ¿Por qué su lengua es de un tono tan oscuro? Es un mecanismo de defensa natural que
-                                ayuda a protegerla de los fuertes rayos solares mientras come hojas de acacia.
+                            <p class="text-gray-600 mb-4">
+                                ¿Por qué su lengua es de un tono tan oscuro? Es un mecanismo de defensa natural
+                                para protegerla de los fuertes rayos solares mientras come acacia.
                             </p>
-                            <div class="space-y-2">
-                                <a href="https://www.youtube.com/watch?v=fPR9lF7KozM" target="_blank" rel="noopener noreferrer"
-                                   class="text-sm font-semibold text-blue-600 hover:text-blue-800 inline-flex items-center">
-                                    Ver short de la lengua
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                                </a>
-                                <br>
-                                <a href="jirafa.html" class="text-sm font-semibold texto-naturaleza hover:underline">
-                                    Más curiosidades de la jirafa
-                                </a>
-                            </div>
+                            <a href="jirafa.html" class="text-sm font-semibold text-blue-600 hover:text-blue-800 flex items-center">
+                                Ver más sobre la jirafa
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1">
+                                    <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Curiosidad 4: Gallina -->
+                    <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-gray-100">
+                        <div class="p-6">
+                            <span class="text-5xl mb-4 block">🐔</span>
+                            <h4 class="text-2xl font-semibold mb-3 text-gray-800">
+                                La Gallina Cotidiana
+                            </h4>
+                            <p class="text-gray-600 mb-4">
+                                La gallina es una de las aves más cercanas a las personas. Habita corrales,
+                                patios y granjas, y nos acompaña en la vida diaria con sus huevos y su presencia.
+                            </p>
+                            <a href="gallina.html" class="text-sm font-semibold text-blue-600 hover:text-blue-800 flex items-center">
+                                Ver ficha de la gallina
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1">
+                                    <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+                                </svg>
+                            </a>
                         </div>
                     </article>
 
@@ -185,49 +164,38 @@
         <section id="acerca" class="py-16 md:py-20 bg-gray-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
                 
+                <!-- Columna de Texto -->
                 <div>
-                    <span class="text-xs font-semibold color-miel inline-block px-3 py-1 rounded-full mb-3 uppercase tracking-wide">
-                        Nuestra misión
+                    <span class="text-sm font-semibold color-miel inline-block px-3 py-1 rounded-full mb-3">
+                        Nuestra Misión
                     </span>
                     <h3 class="text-4xl font-bold mb-4 text-gray-800">
-                        Hacer de la ciencia una historia
+                        Hacer de la Ciencia una Historia
                     </h3>
                     <p class="text-gray-600 text-lg mb-6">
                         En Arommis, creemos que los datos más cruciales de la naturaleza no deben ser complejos.
                         Nuestro objetivo es transformar la ecología, la biología y la ciencia en relatos fascinantes
-                        que puedas recordar, compartir y disfrutar en familia.
+                        que puedas recordar y compartir.
                     </p>
-                    <ul class="space-y-3 text-gray-700 mb-6">
+                    <ul class="space-y-3 text-gray-700">
                         <li class="flex items-center">
                             <span class="text-xl mr-2 text-green-500">✅</span>
-                            Información verificada y de calidad.
+                            Información Verificada y de Calidad.
                         </li>
                         <li class="flex items-center">
                             <span class="text-xl mr-2 text-green-500">✅</span>
-                            Enfoque en la biodiversidad y el planeta.
+                            Enfoque en la Biodiversidad y el Planeta.
                         </li>
                         <li class="flex items-center">
                             <span class="text-xl mr-2 text-green-500">✅</span>
-                            Contenido apto para toda la familia.
+                            Contenido Apto para Toda la Familia.
                         </li>
                     </ul>
-                    <div class="space-y-2">
-                        <a href="https://youtube.com/@aprendiendoconarommis" target="_blank" rel="noopener noreferrer"
-                           class="inline-flex items-center gap-2 text-sm font-semibold texto-naturaleza hover:underline">
-                            Conocer el canal de YouTube
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                        </a>
-                        <br>
-                        <a href="poemas.html" class="inline-flex items-center gap-2 text-sm font-semibold text-gray-700 hover:underline">
-                            Leer nuestros poemas sobre la vida y la naturaleza ✍️
-                        </a>
-                    </div>
                 </div>
 
+                <!-- Columna de Imagen Placeholder (para un mejor diseño) -->
                 <div class="hidden md:block">
-                    <img src="https://placehold.co/600x400/10B981/ffffff?text=Arommis+Explorando" 
-                         alt="Ilustración de una exploradora observando la naturaleza" 
-                         class="rounded-2xl shadow-xl w-full h-auto object-cover">
+                    <img src="https://placehold.co/600x400/10B981/ffffff?text=Arommis+Explorando" alt="Ilustración de un explorador de la naturaleza" class="rounded-2xl shadow-xl w-full h-auto object-cover">
                 </div>
             </div>
         </section>
@@ -237,561 +205,22 @@
     <!-- Pie de Página -->
     <footer class="bg-gray-800 text-white py-10">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h4 class="text-2xl font-bold mb-2">Arommis</h4>
-            <p class="text-gray-400 mb-6 text-sm md:text-base">
+            <h4 class="text-2xl font-bold mb-4">Arommis</h4>
+            <p class="text-gray-400 mb-6">
                 Óyelo bien y no lo olvides: la naturaleza es fascinante.
             </p>
             
-            <div class="flex justify-center space-x-6 mb-6">
-                <a href="https://youtube.com/@aprendiendoconarommis" target="_blank" rel="noopener noreferrer"
-                   class="text-gray-400 hover:text-red-500 transition duration-300" aria-label="Canal de YouTube de Arommis">
+            <!-- Iconos de Redes Sociales -->
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="https://youtube.com/@AprendiendoConArommis" target="_blank" class="text-gray-400 hover:text-red-500 transition duration-300" aria-label="YouTube">
+                    <!-- Icono de YouTube (SVG) -->
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M19.615 3.184c-3.613-.232-4.108-.344-7.615-.344s-4.002.112-7.615.344C2.012 3.42 1 4.5 1 5.864v12.272c0 1.364 1.012 2.444 3.385 2.68c3.613.232 4.108.344 7.615.344s4.002-.112 7.615-.344c2.373-.236 3.385-1.316 3.385-2.68V5.864c0-1.364-1.012-2.444-3.385-2.68zM9.99 15.424V8.576l6.002 3.424-6.002 3.424z"/>
                     </svg>
                 </a>
             </div>
 
-            <div class="mb-4">
-                <a href="poemas.html" class="text-sm text-gray-300 hover:underline">
-                    Ver poemas de Arommis ✍️
-                </a>
-            </div>
-
-            <p class="text-xs text-gray-500">
-                © 2024 Arommis. Todos los derechos reservados.
-            </p>
-        </div>
-    </footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arommis | Datos curiosos de la naturaleza para toda la familia</title>
-
-    <!-- SEO básico -->
-    <meta name="description" content="Arommis convierte los datos curiosos de la naturaleza en historias fáciles de entender. Ciencia, biología y ecología en videos cortos para toda la familia.">
-    <meta name="keywords" content="Arommis, datos curiosos, naturaleza, ciencia, biología, ecología, shorts, YouTube, animales, educación para niños">
-    <meta name="author" content="Arommis">
-
-    <!-- Open Graph (para compartir en redes) -->
-    <meta property="og:title" content="Arommis | Datos curiosos de la naturaleza">
-    <meta property="og:description" content="Óyelo bien y no lo olvides: la naturaleza es fascinante. Descubre datos curiosos con Arommis.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://astivenr.github.io/Arommis">
-    <meta property="og:image" content="https://astivenr.github.io/Arommis/imagen-og-arommis.jpg">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Arommis | Datos curiosos de la naturaleza">
-    <meta name="twitter:description" content="Ciencia, naturaleza y datos curiosos explicados de forma simple.">
-    <meta name="twitter:image" content="https://astivenr.github.io/Arommis/imagen-og-arommis.jpg">
-
-    <!-- Favicon (ajusta la ruta si tienes uno) -->
-    <link rel="icon" type="image/png" href="/favicon.png">
-
-    <!-- Carga de Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Configuración de Fuente Inter -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f7f9f7;
-        }
-        .color-miel { background-color: #FACC15; }
-        .color-naturaleza { background-color: #10B981; }
-        .texto-naturaleza { color: #059669; }
-    </style>
-</head>
-<body class="antialiased">
-
-    <!-- Encabezado y Navegación -->
-    <header class="bg-white shadow-md sticky top-0 z-10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <h1 class="text-3xl font-extrabold texto-naturaleza tracking-wider">
-                Arommis
-            </h1>
-            <nav class="hidden md:block" aria-label="Navegación principal">
-                <a href="#inicio" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Inicio</a>
-                <a href="#curiosidades" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Curiosidades</a>
-                <a href="#acerca" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Acerca</a>
-                <a href="poemas.html" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Poemas</a>
-                <a href="https://youtube.com/@aprendiendoconarommis" target="_blank" rel="noopener noreferrer"
-                   class="color-miel text-gray-900 font-semibold px-4 py-2 rounded-full ml-4 shadow-lg hover:shadow-xl hover:scale-105 transition duration-300 inline-flex items-center gap-2">
-                    <span class="font-black text-lg align-middle">▶️</span>
-                    <span>YouTube</span>
-                </a>
-            </nav>
-            <button class="md:hidden p-2 rounded-full hover:bg-gray-100 transition duration-150" aria-label="Abrir menú de navegación">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-600">
-                    <line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="18" y2="18"/>
-                </svg>
-            </button>
-        </div>
-    </header>
-
-    <main>
-        <!-- Sección Hero / Inicio -->
-        <section id="inicio" class="py-16 md:py-24 color-naturaleza text-white">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <p class="text-xl md:text-2xl font-medium mb-3 opacity-90">
-                    📢 ÓYELO BIEN Y NO LO OLVIDES...
-                </p>
-                <h2 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
-                    El mundo es un lugar increíble
-                </h2>
-                <p class="text-lg md:text-xl max-w-3xl mx-auto mb-10 opacity-90">
-                    Explora con Arommis los datos curiosos, fascinantes e impactantes que la naturaleza esconde.
-                    De la biología a la ecología, ¡aprender nunca fue tan divertido!
-                </p>
-                <a href="https://youtube.com/@aprendiendoconarommis" target="_blank" rel="noopener noreferrer"
-                   class="inline-flex items-center justify-center gap-2 color-miel text-gray-900 font-bold text-xl px-10 py-4 rounded-full shadow-2xl transform hover:scale-105 transition duration-300">
-                    <span>¡Ver nuestro último video ahora!</span>
-                    <span class="text-2xl">▶️</span>
-                </a>
-            </div>
-        </section>
-
-        <!-- Sección de Curiosidades Destacadas -->
-        <section id="curiosidades" class="py-16 md:py-20">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <p class="text-sm uppercase tracking-wide font-semibold text-center texto-naturaleza mb-2">
-                    Shorts destacados
-                </p>
-                <h3 class="text-4xl font-bold text-center mb-12 texto-naturaleza">
-                    Nuestras curiosidades más fascinantes
-                </h3>
-                
-                <div class="grid md:grid-cols-3 gap-8">
-                    
-                    <!-- Abeja -->
-                    <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-gray-100 h-full flex flex-col">
-                        <div class="p-6 flex flex-col flex-1">
-                            <span class="text-5xl mb-4 block">🐝</span>
-                            <h4 class="text-2xl font-semibold mb-3 text-gray-800">
-                                Las maestras polinizadoras
-                            </h4>
-                            <p class="text-gray-600 mb-4 flex-1">
-                                ¿Sabías que el 70% de las frutas y verduras que comes existen gracias a las abejas?
-                                Son criaturas diminutas con un impacto monumental en nuestra dieta.
-                            </p>
-                            <div class="space-y-2">
-                                <a href="https://www.youtube.com/watch?v=MEsd1g8QrKU" target="_blank" rel="noopener noreferrer"
-                                   class="text-sm font-semibold text-blue-600 hover:text-blue-800 inline-flex items-center">
-                                    Ver short de abejas
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                                </a>
-                                <br>
-                                <a href="abeja.html" class="text-sm font-semibold texto-naturaleza hover:underline">
-                                    Leer más sobre la abeja 🐝
-                                </a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Jirafa altura -->
-                    <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-gray-100 h-full flex flex-col">
-                        <div class="p-6 flex flex-col flex-1">
-                            <span class="text-5xl mb-4 block">🦒</span>
-                            <h4 class="text-2xl font-semibold mb-3 text-gray-800">
-                                La altura récord
-                            </h4>
-                            <p class="text-gray-600 mb-4 flex-1">
-                                La jirafa es el ser vivo más alto. Al nacer, ¡ya miden hasta 2 metros!
-                                Las adultas pueden superar los 6 metros de altura.
-                            </p>
-                            <div class="space-y-2">
-                                <a href="https://www.youtube.com/watch?v=ueuXmcAfcao" target="_blank" rel="noopener noreferrer"
-                                   class="text-sm font-semibold text-blue-600 hover:text-blue-800 inline-flex items-center">
-                                    Ver short de altura
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                                </a>
-                                <br>
-                                <a href="jirafa.html" class="text-sm font-semibold texto-naturaleza hover:underline">
-                                    Leer más sobre la jirafa 🦒
-                                </a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Jirafa lengua -->
-                    <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-gray-100 h-full flex flex-col">
-                        <div class="p-6 flex flex-col flex-1">
-                            <span class="text-5xl mb-4 block">⚫</span>
-                            <h4 class="text-2xl font-semibold mb-3 text-gray-800">
-                                El secreto de su lengua
-                            </h4>
-                            <p class="text-gray-600 mb-4 flex-1">
-                                ¿Por qué su lengua es de un tono tan oscuro? Es un mecanismo de defensa natural que
-                                ayuda a protegerla de los fuertes rayos solares mientras come hojas de acacia.
-                            </p>
-                            <div class="space-y-2">
-                                <a href="https://www.youtube.com/watch?v=fPR9lF7KozM" target="_blank" rel="noopener noreferrer"
-                                   class="text-sm font-semibold text-blue-600 hover:text-blue-800 inline-flex items-center">
-                                    Ver short de la lengua
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                                </a>
-                                <br>
-                                <a href="jirafa.html" class="text-sm font-semibold texto-naturaleza hover:underline">
-                                    Más curiosidades de la jirafa
-                                </a>
-                            </div>
-                        </div>
-                    </article>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Sección Acerca de Arommis -->
-        <section id="acerca" class="py-16 md:py-20 bg-gray-50">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
-                
-                <div>
-                    <span class="text-xs font-semibold color-miel inline-block px-3 py-1 rounded-full mb-3 uppercase tracking-wide">
-                        Nuestra misión
-                    </span>
-                    <h3 class="text-4xl font-bold mb-4 text-gray-800">
-                        Hacer de la ciencia una historia
-                    </h3>
-                    <p class="text-gray-600 text-lg mb-6">
-                        En Arommis, creemos que los datos más cruciales de la naturaleza no deben ser complejos.
-                        Nuestro objetivo es transformar la ecología, la biología y la ciencia en relatos fascinantes
-                        que puedas recordar, compartir y disfrutar en familia.
-                    </p>
-                    <ul class="space-y-3 text-gray-700 mb-6">
-                        <li class="flex items-center">
-                            <span class="text-xl mr-2 text-green-500">✅</span>
-                            Información verificada y de calidad.
-                        </li>
-                        <li class="flex items-center">
-                            <span class="text-xl mr-2 text-green-500">✅</span>
-                            Enfoque en la biodiversidad y el planeta.
-                        </li>
-                        <li class="flex items-center">
-                            <span class="text-xl mr-2 text-green-500">✅</span>
-                            Contenido apto para toda la familia.
-                        </li>
-                    </ul>
-                    <div class="space-y-2">
-                        <a href="https://youtube.com/@aprendiendoconarommis" target="_blank" rel="noopener noreferrer"
-                           class="inline-flex items-center gap-2 text-sm font-semibold texto-naturaleza hover:underline">
-                            Conocer el canal de YouTube
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                        </a>
-                        <br>
-                        <a href="poemas.html" class="inline-flex items-center gap-2 text-sm font-semibold text-gray-700 hover:underline">
-                            Leer nuestros poemas sobre la vida y la naturaleza ✍️
-                        </a>
-                    </div>
-                </div>
-
-                <div class="hidden md:block">
-                    <img src="https://placehold.co/600x400/10B981/ffffff?text=Arommis+Explorando" 
-                         alt="Ilustración de una exploradora observando la naturaleza" 
-                         class="rounded-2xl shadow-xl w-full h-auto object-cover">
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Pie de Página -->
-    <footer class="bg-gray-800 text-white py-10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h4 class="text-2xl font-bold mb-2">Arommis</h4>
-            <p class="text-gray-400 mb-6 text-sm md:text-base">
-                Óyelo bien y no lo olvides: la naturaleza es fascinante.
-            </p>
-            
-            <div class="flex justify-center space-x-6 mb-6">
-                <a href="https://youtube.com/@aprendiendoconarommis" target="_blank" rel="noopener noreferrer"
-                   class="text-gray-400 hover:text-red-500 transition duration-300" aria-label="Canal de YouTube de Arommis">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M19.615 3.184c-3.613-.232-4.108-.344-7.615-.344s-4.002.112-7.615.344C2.012 3.42 1 4.5 1 5.864v12.272c0 1.364 1.012 2.444 3.385 2.68c3.613.232 4.108.344 7.615.344s4.002-.112 7.615-.344c2.373-.236 3.385-1.316 3.385-2.68V5.864c0-1.364-1.012-2.444-3.385-2.68zM9.99 15.424V8.576l6.002 3.424-6.002 3.424z"/>
-                    </svg>
-                </a>
-            </div>
-
-            <div class="mb-4">
-                <a href="poemas.html" class="text-sm text-gray-300 hover:underline">
-                    Ver poemas de Arommis ✍️
-                </a>
-            </div>
-
-            <p class="text-xs text-gray-500">
-                © 2024 Arommis. Todos los derechos reservados.
-            </p>
-        </div>
-    </footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arommis | Datos curiosos de la naturaleza para toda la familia</title>
-
-    <!-- SEO básico -->
-    <meta name="description" content="Arommis convierte los datos curiosos de la naturaleza en historias fáciles de entender. Ciencia, biología y ecología en videos cortos para toda la familia.">
-    <meta name="keywords" content="Arommis, datos curiosos, naturaleza, ciencia, biología, ecología, shorts, YouTube, animales, educación para niños">
-    <meta name="author" content="Arommis">
-
-    <!-- Open Graph (para compartir en redes) -->
-    <meta property="og:title" content="Arommis | Datos curiosos de la naturaleza">
-    <meta property="og:description" content="Óyelo bien y no lo olvides: la naturaleza es fascinante. Descubre datos curiosos con Arommis.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://astivenr.github.io/Arommis">
-    <meta property="og:image" content="https://astivenr.github.io/Arommis/imagen-og-arommis.jpg">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Arommis | Datos curiosos de la naturaleza">
-    <meta name="twitter:description" content="Ciencia, naturaleza y datos curiosos explicados de forma simple.">
-    <meta name="twitter:image" content="https://astivenr.github.io/Arommis/imagen-og-arommis.jpg">
-
-    <!-- Favicon (ajusta la ruta si tienes uno) -->
-    <link rel="icon" type="image/png" href="/favicon.png">
-
-    <!-- Carga de Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Configuración de Fuente Inter -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f7f9f7;
-        }
-        .color-miel { background-color: #FACC15; }
-        .color-naturaleza { background-color: #10B981; }
-        .texto-naturaleza { color: #059669; }
-    </style>
-</head>
-<body class="antialiased">
-
-    <!-- Encabezado y Navegación -->
-    <header class="bg-white shadow-md sticky top-0 z-10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <h1 class="text-3xl font-extrabold texto-naturaleza tracking-wider">
-                Arommis
-            </h1>
-            <nav class="hidden md:block" aria-label="Navegación principal">
-                <a href="#inicio" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Inicio</a>
-                <a href="#curiosidades" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Curiosidades</a>
-                <a href="#acerca" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Acerca</a>
-                <a href="poemas.html" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-lg transition duration-150">Poemas</a>
-                <a href="https://youtube.com/@aprendiendoconarommis" target="_blank" rel="noopener noreferrer"
-                   class="color-miel text-gray-900 font-semibold px-4 py-2 rounded-full ml-4 shadow-lg hover:shadow-xl hover:scale-105 transition duration-300 inline-flex items-center gap-2">
-                    <span class="font-black text-lg align-middle">▶️</span>
-                    <span>YouTube</span>
-                </a>
-            </nav>
-            <button class="md:hidden p-2 rounded-full hover:bg-gray-100 transition duration-150" aria-label="Abrir menú de navegación">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-600">
-                    <line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="18" y2="18"/>
-                </svg>
-            </button>
-        </div>
-    </header>
-
-    <main>
-        <!-- Sección Hero / Inicio -->
-        <section id="inicio" class="py-16 md:py-24 color-naturaleza text-white">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <p class="text-xl md:text-2xl font-medium mb-3 opacity-90">
-                    📢 ÓYELO BIEN Y NO LO OLVIDES...
-                </p>
-                <h2 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
-                    El mundo es un lugar increíble
-                </h2>
-                <p class="text-lg md:text-xl max-w-3xl mx-auto mb-10 opacity-90">
-                    Explora con Arommis los datos curiosos, fascinantes e impactantes que la naturaleza esconde.
-                    De la biología a la ecología, ¡aprender nunca fue tan divertido!
-                </p>
-                <a href="https://youtube.com/@aprendiendoconarommis" target="_blank" rel="noopener noreferrer"
-                   class="inline-flex items-center justify-center gap-2 color-miel text-gray-900 font-bold text-xl px-10 py-4 rounded-full shadow-2xl transform hover:scale-105 transition duration-300">
-                    <span>¡Ver nuestro último video ahora!</span>
-                    <span class="text-2xl">▶️</span>
-                </a>
-            </div>
-        </section>
-
-        <!-- Sección de Curiosidades Destacadas -->
-        <section id="curiosidades" class="py-16 md:py-20">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <p class="text-sm uppercase tracking-wide font-semibold text-center texto-naturaleza mb-2">
-                    Shorts destacados
-                </p>
-                <h3 class="text-4xl font-bold text-center mb-12 texto-naturaleza">
-                    Nuestras curiosidades más fascinantes
-                </h3>
-                
-                <div class="grid md:grid-cols-3 gap-8">
-                    
-                    <!-- Abeja -->
-                    <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-gray-100 h-full flex flex-col">
-                        <div class="p-6 flex flex-col flex-1">
-                            <span class="text-5xl mb-4 block">🐝</span>
-                            <h4 class="text-2xl font-semibold mb-3 text-gray-800">
-                                Las maestras polinizadoras
-                            </h4>
-                            <p class="text-gray-600 mb-4 flex-1">
-                                ¿Sabías que el 70% de las frutas y verduras que comes existen gracias a las abejas?
-                                Son criaturas diminutas con un impacto monumental en nuestra dieta.
-                            </p>
-                            <div class="space-y-2">
-                                <a href="https://www.youtube.com/watch?v=MEsd1g8QrKU" target="_blank" rel="noopener noreferrer"
-                                   class="text-sm font-semibold text-blue-600 hover:text-blue-800 inline-flex items-center">
-                                    Ver short de abejas
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                                </a>
-                                <br>
-                                <a href="abeja.html" class="text-sm font-semibold texto-naturaleza hover:underline">
-                                    Leer más sobre la abeja 🐝
-                                </a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Jirafa altura -->
-                    <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-gray-100 h-full flex flex-col">
-                        <div class="p-6 flex flex-col flex-1">
-                            <span class="text-5xl mb-4 block">🦒</span>
-                            <h4 class="text-2xl font-semibold mb-3 text-gray-800">
-                                La altura récord
-                            </h4>
-                            <p class="text-gray-600 mb-4 flex-1">
-                                La jirafa es el ser vivo más alto. Al nacer, ¡ya miden hasta 2 metros!
-                                Las adultas pueden superar los 6 metros de altura.
-                            </p>
-                            <div class="space-y-2">
-                                <a href="https://www.youtube.com/watch?v=ueuXmcAfcao" target="_blank" rel="noopener noreferrer"
-                                   class="text-sm font-semibold text-blue-600 hover:text-blue-800 inline-flex items-center">
-                                    Ver short de altura
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                                </a>
-                                <br>
-                                <a href="jirafa.html" class="text-sm font-semibold texto-naturaleza hover:underline">
-                                    Leer más sobre la jirafa 🦒
-                                </a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Jirafa lengua -->
-                    <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden border border-gray-100 h-full flex flex-col">
-                        <div class="p-6 flex flex-col flex-1">
-                            <span class="text-5xl mb-4 block">⚫</span>
-                            <h4 class="text-2xl font-semibold mb-3 text-gray-800">
-                                El secreto de su lengua
-                            </h4>
-                            <p class="text-gray-600 mb-4 flex-1">
-                                ¿Por qué su lengua es de un tono tan oscuro? Es un mecanismo de defensa natural que
-                                ayuda a protegerla de los fuertes rayos solares mientras come hojas de acacia.
-                            </p>
-                            <div class="space-y-2">
-                                <a href="https://www.youtube.com/watch?v=fPR9lF7KozM" target="_blank" rel="noopener noreferrer"
-                                   class="text-sm font-semibold text-blue-600 hover:text-blue-800 inline-flex items-center">
-                                    Ver short de la lengua
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                                </a>
-                                <br>
-                                <a href="jirafa.html" class="text-sm font-semibold texto-naturaleza hover:underline">
-                                    Más curiosidades de la jirafa
-                                </a>
-                            </div>
-                        </div>
-                    </article>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Sección Acerca de Arommis -->
-        <section id="acerca" class="py-16 md:py-20 bg-gray-50">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
-                
-                <div>
-                    <span class="text-xs font-semibold color-miel inline-block px-3 py-1 rounded-full mb-3 uppercase tracking-wide">
-                        Nuestra misión
-                    </span>
-                    <h3 class="text-4xl font-bold mb-4 text-gray-800">
-                        Hacer de la ciencia una historia
-                    </h3>
-                    <p class="text-gray-600 text-lg mb-6">
-                        En Arommis, creemos que los datos más cruciales de la naturaleza no deben ser complejos.
-                        Nuestro objetivo es transformar la ecología, la biología y la ciencia en relatos fascinantes
-                        que puedas recordar, compartir y disfrutar en familia.
-                    </p>
-                    <ul class="space-y-3 text-gray-700 mb-6">
-                        <li class="flex items-center">
-                            <span class="text-xl mr-2 text-green-500">✅</span>
-                            Información verificada y de calidad.
-                        </li>
-                        <li class="flex items-center">
-                            <span class="text-xl mr-2 text-green-500">✅</span>
-                            Enfoque en la biodiversidad y el planeta.
-                        </li>
-                        <li class="flex items-center">
-                            <span class="text-xl mr-2 text-green-500">✅</span>
-                            Contenido apto para toda la familia.
-                        </li>
-                    </ul>
-                    <div class="space-y-2">
-                        <a href="https://youtube.com/@aprendiendoconarommis" target="_blank" rel="noopener noreferrer"
-                           class="inline-flex items-center gap-2 text-sm font-semibold texto-naturaleza hover:underline">
-                            Conocer el canal de YouTube
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                        </a>
-                        <br>
-                        <a href="poemas.html" class="inline-flex items-center gap-2 text-sm font-semibold text-gray-700 hover:underline">
-                            Leer nuestros poemas sobre la vida y la naturaleza ✍️
-                        </a>
-                    </div>
-                </div>
-
-                <div class="hidden md:block">
-                    <img src="https://placehold.co/600x400/10B981/ffffff?text=Arommis+Explorando" 
-                         alt="Ilustración de una exploradora observando la naturaleza" 
-                         class="rounded-2xl shadow-xl w-full h-auto object-cover">
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Pie de Página -->
-    <footer class="bg-gray-800 text-white py-10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h4 class="text-2xl font-bold mb-2">Arommis</h4>
-            <p class="text-gray-400 mb-6 text-sm md:text-base">
-                Óyelo bien y no lo olvides: la naturaleza es fascinante.
-            </p>
-            
-            <div class="flex justify-center space-x-6 mb-6">
-                <a href="https://youtube.com/@aprendiendoconarommis" target="_blank" rel="noopener noreferrer"
-                   class="text-gray-400 hover:text-red-500 transition duration-300" aria-label="Canal de YouTube de Arommis">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M19.615 3.184c-3.613-.232-4.108-.344-7.615-.344s-4.002.112-7.615.344C2.012 3.42 1 4.5 1 5.864v12.272c0 1.364 1.012 2.444 3.385 2.68c3.613.232 4.108.344 7.615.344s4.002-.112 7.615-.344c2.373-.236 3.385-1.316 3.385-2.68V5.864c0-1.364-1.012-2.444-3.385-2.68zM9.99 15.424V8.576l6.002 3.424-6.002 3.424z"/>
-                    </svg>
-                </a>
-            </div>
-
-            <div class="mb-4">
-                <a href="poemas.html" class="text-sm text-gray-300 hover:underline">
-                    Ver poemas de Arommis ✍️
-                </a>
-            </div>
-
-            <p class="text-xs text-gray-500">
+            <p class="text-sm text-gray-500">
                 © 2024 Arommis. Todos los derechos reservados.
             </p>
         </div>
